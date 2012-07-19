@@ -1,6 +1,5 @@
 require 'spec_helper'
 
-<<<<<<< HEAD
   describe "User pages" do
 
     subject { page }
@@ -45,7 +44,6 @@ require 'spec_helper'
       end
     end
 end
-=======
 describe "UserPages" do
   subject { page }
 
@@ -56,4 +54,3 @@ describe "UserPages" do
   	it { should have_selector('title', text: full_title('Sign up')) }
   end
 end
->>>>>>> b9f86e20273e97317b4f10a1f35a79c6490c584b
